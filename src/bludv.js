@@ -8,7 +8,7 @@ const NodeCache = require('node-cache');
 const catalogCache = new NodeCache({ stdTTL: 1800, checkperiod: 300 });
 const streamCache = new NodeCache({ stdTTL: 600, checkperiod: 120 });
 
-const BASE_URL = 'https://www.limontorrents.vip';
+const BASE_URL = 'https://bludv1.com';
 const WP_API = `${BASE_URL}/wp-json/wp/v2`;
 
 // IDs de categorias do WordPress do BluDV
